@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    color: grey;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 721px;
+    margin: auto;
+}
+
+img {
+    max-width: 721px;
+    max-height: 483px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+li {
+    list-style-type: square;
+}
+
+ul li {
+    list-style-type: circle;
+}
+
+p {
+    color: white;
+    text-align: justify;
+}
+
+main {
+    margin: 50px 20px;
+}
